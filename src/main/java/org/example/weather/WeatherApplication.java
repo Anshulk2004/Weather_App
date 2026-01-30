@@ -18,6 +18,11 @@ public class WeatherApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        weatherService.fetchAndSaveWeatherData();
+
     }
+
+//    @Override
+//    public void run(String... args) throws Exception {
+//        weatherService.fetchAndSaveWeatherData();
+//    }
 }

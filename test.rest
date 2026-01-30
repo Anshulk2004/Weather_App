@@ -1,0 +1,17 @@
+###
+GET http://localhost:8080/api/weather/favorites
+###
+PUT http://localhost:8080//api/weather/favorites/alert/7
+###
+POST http://localhost:8080//api/weather/favorites
+Content-Type: application/json
+
+{
+  "city": "Pune"
+}
+
+###
+GET http://localhost:8080//api/weather/favorites/7
+
+###
+DELETE http://localhost:8080//api/weather/favorites/7
